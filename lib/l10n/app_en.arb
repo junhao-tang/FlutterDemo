@@ -1,0 +1,24 @@
+{
+    "goodMorning": "Good morning, {name}",
+    "@goodMorning": {
+      "placeholders": {
+          "name": {
+            "type": "String",
+            "example": "Jasper"
+          }
+        }
+    },
+    "appTitle": "Flutter Demo App - Spotify UI",
+    "settings": "Settings",
+    "viewProfile": "View Profile",
+    "settingLanguage": "Language:",
+    "retry": "Retry",
+    "errorMap": "{key,select,http {Connection error, please try again},user {User error},other{{key}}}",
+    "@errorMap": {
+      "placeholders": {
+        "key": {
+            "type": "String"
+        }
+      }
+    }
+}

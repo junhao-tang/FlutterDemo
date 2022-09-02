@@ -1,0 +1,9 @@
+{
+    "goodMorning": "早安，{name}",
+    "appTitle": "Flutter 演示程序 - Spotify界面",
+    "settings": "配置",
+    "viewProfile": "显示个人资料",
+    "settingLanguage": "选择语言:",
+    "retry": "重试",
+    "errorMap": "{key,select, http {链接错误, 请重新尝试}, user {用户错误}, other{{key}}}"
+}
