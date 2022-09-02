@@ -1,6 +1,8 @@
 # Flutter App Demo
 
 This project is Flutter hello world project, which trying to mimic Spotify UI layout on Samsung S21 Ultra.
+<br/>
+<img src="screenshot/demo.gif" alt="demo" width="200px">
 
 ## Features Covered by Demo
 
@@ -15,6 +17,7 @@ This project is Flutter hello world project, which trying to mimic Spotify UI la
 - [x] Mock API
 - [x] Basic theming
 - [x] State management with Provider
+- [x] Animation using flutter_staggered_animations
 - [ ] Adaptive / Responsive
 - [ ] Test
 - [ ] Oauth
@@ -31,6 +34,7 @@ This project is Flutter hello world project, which trying to mimic Spotify UI la
 
 - [x] go_router, router
 - [x] json_annotation, json serializer/deserializer
+- [x] flutter_staggered_animations, staggered animations
 - [x] provider, state management pkg
 - [x] dio, http interceptor/client
 - [x] intl, translation
