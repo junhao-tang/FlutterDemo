@@ -2,9 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/user.dart';
-import 'package:flutter_wheel/setting.dart';
-import 'package:flutter_wheel/theme.dart';
+import 'package:flutter_demo/models/user.dart';
+import 'package:flutter_demo/setting.dart';
+import 'package:flutter_demo/theme.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

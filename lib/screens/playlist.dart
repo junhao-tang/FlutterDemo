@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:flutter_wheel/models/index.dart';
-import 'package:flutter_wheel/repositories/playlist.dart';
-import 'package:flutter_wheel/setting.dart';
-import 'package:flutter_wheel/util/router.dart';
-import 'package:flutter_wheel/widgets/retry.dart';
-import 'package:flutter_wheel/widgets/track.dart';
+import 'package:flutter_demo/models/index.dart';
+import 'package:flutter_demo/repositories/playlist.dart';
+import 'package:flutter_demo/setting.dart';
+import 'package:flutter_demo/util/router.dart';
+import 'package:flutter_demo/widgets/retry.dart';
+import 'package:flutter_demo/widgets/track.dart';
 import 'package:provider/provider.dart';
 
 class PlaylistScreen extends StatefulWidget {

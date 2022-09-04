@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/playlist.dart';
-import 'package:flutter_wheel/route.dart';
-import 'package:flutter_wheel/util/router.dart';
+import 'package:flutter_demo/models/playlist.dart';
+import 'package:flutter_demo/route.dart';
+import 'package:flutter_demo/util/router.dart';
 
 // TODO: try tileslayout?
 class TilePlaylistsSectionWidget extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/index.dart';
+import 'package:flutter_demo/models/index.dart';
 
 import 'playlists.dart';
 

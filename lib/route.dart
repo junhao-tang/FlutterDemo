@@ -1,8 +1,8 @@
-import 'package:flutter_wheel/screens/settings.dart';
+import 'package:flutter_demo/screens/settings.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/screens/home.dart';
-import 'package:flutter_wheel/screens/playlist.dart';
+import 'package:flutter_demo/screens/home.dart';
+import 'package:flutter_demo/screens/playlist.dart';
 
 enum RouteNames {
   home,

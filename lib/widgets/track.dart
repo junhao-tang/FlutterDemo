@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/track.dart';
+import 'package:flutter_demo/models/track.dart';
 
 class TrackWidget extends StatelessWidget {
   final Track data;

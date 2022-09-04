@@ -1,17 +1,17 @@
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/index.dart';
-import 'package:flutter_wheel/models/recommendation.dart';
-import 'package:flutter_wheel/repositories/recommendation.dart';
-import 'package:flutter_wheel/setting.dart';
-import 'package:flutter_wheel/widgets/more_like_section.dart';
-import 'package:flutter_wheel/widgets/normal_section.dart';
-import 'package:flutter_wheel/widgets/recently_played_section.dart';
-import 'package:flutter_wheel/widgets/retry.dart';
-import 'package:flutter_wheel/widgets/spotlight_section.dart';
-import 'package:flutter_wheel/widgets/tile_playlists_section.dart';
-import 'package:flutter_wheel/widgets/top_nav.dart';
+import 'package:flutter_demo/models/index.dart';
+import 'package:flutter_demo/models/recommendation.dart';
+import 'package:flutter_demo/repositories/recommendation.dart';
+import 'package:flutter_demo/setting.dart';
+import 'package:flutter_demo/widgets/more_like_section.dart';
+import 'package:flutter_demo/widgets/normal_section.dart';
+import 'package:flutter_demo/widgets/recently_played_section.dart';
+import 'package:flutter_demo/widgets/retry.dart';
+import 'package:flutter_demo/widgets/spotlight_section.dart';
+import 'package:flutter_demo/widgets/tile_playlists_section.dart';
+import 'package:flutter_demo/widgets/top_nav.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {

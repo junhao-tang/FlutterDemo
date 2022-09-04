@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/index.dart';
-import 'package:flutter_wheel/models/playlist.dart';
-import 'package:flutter_wheel/util/http.dart';
+import 'package:flutter_demo/models/index.dart';
+import 'package:flutter_demo/models/playlist.dart';
+import 'package:flutter_demo/util/http.dart';
 
 Future<String> _getPlaylist(Request request) {
   String response = """

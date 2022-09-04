@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/models/index.dart';
-import 'package:flutter_wheel/route.dart';
-import 'package:flutter_wheel/util/router.dart';
+import 'package:flutter_demo/models/index.dart';
+import 'package:flutter_demo/route.dart';
+import 'package:flutter_demo/util/router.dart';
 
 class SpotlightSectionWidget extends StatelessWidget {
   final Playlist playlist;

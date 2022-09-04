@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/route.dart';
+import 'package:flutter_demo/route.dart';
 import 'package:go_router/go_router.dart';
 
 void routerGoNamed(BuildContext context, RouteNames namedRoute,

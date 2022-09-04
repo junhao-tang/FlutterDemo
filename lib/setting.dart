@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_wheel/util/http.dart';
+import 'package:flutter_demo/util/http.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const supportedLangs = ['en', 'zh'];

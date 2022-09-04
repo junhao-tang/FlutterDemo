@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_wheel/models/user.dart';
-import 'package:flutter_wheel/route.dart';
-import 'package:flutter_wheel/util/router.dart';
+import 'package:flutter_demo/models/user.dart';
+import 'package:flutter_demo/route.dart';
+import 'package:flutter_demo/util/router.dart';
 import 'package:provider/provider.dart';
 
 class TopNavWidget extends StatelessWidget {

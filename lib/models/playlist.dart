@@ -1,4 +1,4 @@
-import 'package:flutter_wheel/models/index.dart';
+import 'package:flutter_demo/models/index.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'playlist.g.dart';
