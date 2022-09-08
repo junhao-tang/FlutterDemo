@@ -169,15 +169,13 @@ Future<String> _getRecommendations(Request r) {
 }
 
 Future<List<Recommendation>> getRecommendations(HttpClient client,
-    {Locale? locale}) {
-  return Future<List<Recommendation>>(() async {
-    List<dynamic> recommendationsJson = await client.handle(
-        Request(HttpMethod.get, "/recommendations",
-            queryParams: {"lang": locale?.languageCode}),
-        _getRecommendations);
-    List<Recommendation> recommendations = List<Recommendation>.from(
-        recommendationsJson.map((j) => Recommendation.fromJson(j)));
-    recommendations.sort();
-    return recommendations;
-  });
+    {Locale? locale}) async {
+  List<dynamic> recommendationsJson = await client.handle(
+      Request(HttpMethod.get, "/recommendations",
+          queryParams: {"lang": locale?.languageCode}),
+      _getRecommendations);
+  List<Recommendation> recommendations = List<Recommendation>.from(
+      recommendationsJson.map((j) => Recommendation.fromJson(j)));
+  recommendations.sort();
+  return recommendations;
 }

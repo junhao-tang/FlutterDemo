@@ -139,12 +139,10 @@ Future<String> _getPlaylist(Request request) {
 }
 
 Future<Playlist> getPlaylist(HttpClient client, int playlistId,
-    {Locale? locale}) {
-  return Future(() async {
-    Map<String, dynamic> jsonResponse = await client.handle(
-        Request(HttpMethod.get, "/playlist",
-            queryParams: {"lang": locale?.languageCode}),
-        _getPlaylist);
-    return Playlist.fromJson(jsonResponse);
-  });
+    {Locale? locale}) async {
+  Map<String, dynamic> jsonResponse = await client.handle(
+      Request(HttpMethod.get, "/playlist",
+          queryParams: {"lang": locale?.languageCode}),
+      _getPlaylist);
+  return Playlist.fromJson(jsonResponse);
 }
